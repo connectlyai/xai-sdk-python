@@ -179,7 +179,7 @@ typeCheckingMode = "basic"
 [dependency-groups]
 dev = [
   "absl-py>=2.2.2",
-  "grpcio-tools>=1.63.0",
+  "grpcio-tools>=1.48.0",
   "hatch>=1.14.1",
   "packaging>=25.0",
   "portpicker>=1.6.0",
