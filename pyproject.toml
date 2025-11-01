@@ -9,7 +9,7 @@ description = "The official Python SDK for the xAI API"
 license = "Apache-2.0"
 authors = [{ name = "xAI", email = "support@x.ai" }]
 dependencies = [
-  "grpcio>=1.72.1,<2",
+  "grpcio>=1.63.0,<2",
   "protobuf>=5.29.4,<7",
   "pydantic>=2.5.3,<3",
   "requests>=2.31.0,<3",
@@ -179,7 +179,7 @@ typeCheckingMode = "basic"
 [dependency-groups]
 dev = [
   "absl-py>=2.2.2",
-  "grpcio-tools>=1.71.0",
+  "grpcio-tools>=1.63.0",
   "hatch>=1.14.1",
   "packaging>=25.0",
   "portpicker>=1.6.0",
